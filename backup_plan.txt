@@ -1,3 +1,8 @@
-Backup
+Plan Backup Solution
 
-1. Backup world data nightly
+- Backup existing world and data folder
+- Confirm locations needed for nightly Backup
+- Confirm whether restart is needed after Backup
+- Plan how many local backups are kept
+- Plan where remote backups are kept
+- Write backup script
