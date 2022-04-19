@@ -6,6 +6,8 @@ Plan Backup Solution
 - Plan how many local backups are kept
 - Plan where remote backups are kept
 - Write backup script
+- Write script to upload backups to remote storage
+- Write cron for both scripts
 
 
 - Worlds
