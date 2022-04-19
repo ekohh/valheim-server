@@ -6,3 +6,14 @@ Plan Backup Solution
 - Plan how many local backups are kept
 - Plan where remote backups are kept
 - Write backup script
+
+
+- Worlds
+    - /home/steam/.config/unity3d/IronGate/Valheim/
+- Server Install
+    - /home/steam/.steam/steamapps/common/valheim/
+
+Online saves occur every 20 minutes
+
+Keep 25 local
+Keep 5 remote
