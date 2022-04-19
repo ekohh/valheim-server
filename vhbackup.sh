@@ -30,7 +30,7 @@ fi
 # Backup Today
 CUR_BACKUP_DIR="${VAL_BACKUP_DIR}/${VAL_BACKUP_DATE}"
 mkdir -pv $CUR_BACKUP_DIR
-tar -cvf ${CUR_BACKUP_DIR}/world-backup-${VAL_BACKUP_DATE}.tgz -C $VAL_WORLD_DIR
+tar -cvf ${CUR_BACKUP_DIR}/world-backup-${VAL_BACKUP_DATE}.tgz -C $VAL_WORLD_DIR worlds/
 
 # Cleaup old backups if more than 25
 CUR_BACKUPS=$(find $VAL_BACKUP_DIR -mindepth 1 -maxdepth 1 -type d | wc -l)
