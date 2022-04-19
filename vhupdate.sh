@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Options
-LOGFILE="/var/log/valheim-update.log"
+LOGFILE="/var/log/vhupdate.log"
 STEAMCMD="/home/steam/steamcmd.sh"
 VALHEIM_INSTALL_DIR="/home/steam/.steam/steamapps/common/valheim"
 
