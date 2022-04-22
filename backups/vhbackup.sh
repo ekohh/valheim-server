@@ -30,7 +30,7 @@ fi
 # Backup Today
 CUR_BACKUP_DIR="${VAL_BACKUP_DIR}/${VAL_BACKUP_DATE}"
 mkdir -pv $CUR_BACKUP_DIR
-tar -cvf ${CUR_BACKUP_DIR}/world-backup-${VAL_BACKUP_DATE}.tgz -C $VAL_WORLD_DIR worlds/ \
+tar -czvf ${CUR_BACKUP_DIR}/world-backup-${VAL_BACKUP_DATE}.tar.gz -C $VAL_WORLD_DIR worlds/ \
     && echo "Worlds backup created successfully saved at $(date +'%m-%d-%Y %H:%M:%S %Z')" \
     || echo "There was an error with creating todays backup"
 
