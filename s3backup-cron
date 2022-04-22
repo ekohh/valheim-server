@@ -1,0 +1,4 @@
+#!/bin/sh
+
+# Sync nightly Valheim world backups to s3
+5 1 * * * backups /home/backups/s3backup.sh >> /home/backups/s3backup.log 2>&1
