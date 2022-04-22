@@ -1,8 +1,0 @@
-Plan Update Solution
-
-- Create script to execute update when ran
-    - script should run update command as steam user
-    - script should restart valheim server upon completion of update
-    - output of update and service restart should be logged
-
-- Create a php script on webserver to remotely execute update script when called
